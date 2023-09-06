@@ -1,6 +1,4 @@
 *{
-    /* margin: 0;
-    padding: 0; */
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -15,14 +13,12 @@
 
 html, body{
     height: 100%;
-    overflow-x: hidden;
 }
 
 header{
     height: 100px;
     padding: 20px 0;
     background-color: #153a98;
-
 }
 
 .logo{
@@ -98,8 +94,12 @@ h1 {
         width: auto;
     }
 
-    p{
+    p, .text-photo{
         width: auto;
+    }
+
+    iframe {
+        margin: auto;
     }
 }
 
@@ -113,11 +113,11 @@ table {
 }
   
 td, th {
-border: 1px solid #dddddd;
-text-align: left;
-padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
   
 tr:nth-child(even) {
-background-color: #dddddd;
+    background-color: #dddddd;
 }
